@@ -2,6 +2,18 @@
 @import "bootstrap";
 
 
-.navbar.navbar-inverse {
+.navbar {
   border-radius: 0;
+  font-family: 'exomedium';
+  font-weight: 200;
+  -webkit-box-shadow: -10px 10px 10px 5px rgba(99,98,99,1);
+  -moz-box-shadow: -10px 10px 10px 5px rgba(99,98,99,1);
+  box-shadow: -10px 10px 10px 5px rgba(99,98,99,1);
+  background: url('tex2res4.png')
+}
+
+.navbar-inverse a.navbar-brand {
+ font-family: 'exodemibold';
+  font-weight: 100;
+  color: white;
 }
