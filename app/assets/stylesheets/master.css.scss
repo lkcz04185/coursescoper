@@ -6,9 +6,9 @@
   border-radius: 0;
   font-family: 'exomedium';
   font-weight: 200;
-  -webkit-box-shadow: -10px 10px 10px 5px rgba(99,98,99,1);
-  -moz-box-shadow: -10px 10px 10px 5px rgba(99,98,99,1);
-  box-shadow: -10px 10px 10px 5px rgba(99,98,99,1);
+  -webkit-box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
+  -moz-box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
+  box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
   background: url('tex2res4.png')
 }
 
@@ -16,4 +16,42 @@
  font-family: 'exodemibold';
   font-weight: 100;
   color: white;
+}
+
+.hero {
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  margin: 0;
+  -webkit-box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
+  -moz-box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
+  box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
+}
+
+h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0,  0, 0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: 'exolight';
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+}
+
+.frosty h2 {
+  font-family: 'exolight';
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+}
+
+.btn {
+  border-radius: 0;
 }
