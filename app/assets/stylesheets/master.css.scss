@@ -6,10 +6,10 @@
   border-radius: 0;
   font-family: 'exomedium';
   font-weight: 200;
-  -webkit-box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
-  -moz-box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
-  box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
-  background: url('tex2res4.png')
+  -webkit-box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
+  -moz-box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
+  box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
+  background: url('tex2res4.png');
 }
 
 .navbar-inverse a.navbar-brand {
@@ -19,16 +19,16 @@
 }
 
 .hero {
-  background: url('hero3.JPG') no-repeat center center fixed;
+  background: url('hero3.JPG') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 370px;
   margin: 0;
-  -webkit-box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
-  -moz-box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
-  box-shadow: 0px 10px 10px 5px rgba(99,98,99,1);
+  -webkit-box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
+  -moz-box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
+  box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
 }
 
 h2, h3, h4, h5, h6, .navbar {
@@ -59,5 +59,27 @@ h2, h3, h4, h5, h6, .navbar {
 body {
   background: url('tex2res3.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-
 }
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #EAE9F2;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+  margin-top: 20px;
+  }
+
+  .booyah-box h2, .booyah-box h1 {
+    margin: 5px;
+    }
+
+  label {
+  margin: 8px;
+  }
+
+  clr {
+  clear: both;
+  }

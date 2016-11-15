@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  #--- custom host url for devise configuration (heroku apps:info)
+  config.action_mailer.default_url_options = {host: 'coursescoper.herokuapp.com'}
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
