@@ -1,7 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
 .navbar {
   border-radius: 0;
   font-family: 'exomedium';
@@ -82,4 +81,12 @@ body {
 
   clr {
   clear: both;
+  }
+
+  .field_with_errors {
+  color: #ff3333;
+  background-color: #FEEEEE;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 10px;
   }
