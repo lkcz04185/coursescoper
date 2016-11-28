@@ -1,3 +1,26 @@
+inputs = %w[
+  CollectionSelectInput
+  DateTimeInput
+  FileInput
+  GroupedCollectionSelectInput
+  NumericInput
+  PasswordInput
+  RangeInput
+  StringInput
+  TextInput
+]
+ 
+inputs.each do |input_type|
+  superclass = "SimpleForm::Inputs::#{input_type}".constantize
+ 
+  new_class = Class.new(superclass) do
+    def input_html_classes
+      super.push('form-control')
+    end
+  end
+ 
+  Object.const_set(input_type, new_class)
+end
 # Use this setup block to configure all options available in SimpleForm.
 SimpleForm.setup do |config|
   # Wrappers are used by the form builder to generate a
@@ -5,7 +28,7 @@ SimpleForm.setup do |config|
   # wrapper, change the order or even add your own to the
   # stack. The options given below are used to wrap the
   # whole input.
-  config.input_class = "form-control"
+  # config.input_class = "form-control"
   config.wrappers :default, class: :input,
     hint_class: :field_with_hint, error_class: :field_with_errors do |b|
     ## Extensions enabled by default
