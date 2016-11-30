@@ -38,6 +38,14 @@ gem 'simple_form'
 
 gem 'devise'
 
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+
+#creates application.yml to configure AWS keys for services
+gem 'figaro'
+
+gem 'fog'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
