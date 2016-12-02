@@ -1,5 +1,5 @@
 class RemoveColumns < ActiveRecord::Migration
   def change
-    remove_column :lessons, :vidoe, :string
+    remove_column :lessons, :video, :string
   end
 end
