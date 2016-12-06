@@ -8,14 +8,15 @@
     <%= link_to course.title, course_path(course) %>
   </h2>
     <%= image_tag course.image, class:'img-responsive'%>
-    
-  <div class="col-sm-8 col-xs-12">
+    <br />
+  <div class="col-sm-12 col-xs-12">
     <%= course.description %>
   </div>
-  <br /><br />
+  <br /><br /><br />
   <div class="col-sm-12 col-xs-12 text-center">
     <%= link_to 'More details. ...', course_path(course), class:'btn btn-primary btn-large' %>
   </div>
+   <br />
    <br />
    <br />
   <% end %>

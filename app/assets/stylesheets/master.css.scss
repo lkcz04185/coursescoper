@@ -98,7 +98,8 @@ clr {
 .lesson {
   background-color: black;
   margin-top: 10px;
-  height: 100px;  
+  height: 100px;
+  position: relative; 
 }
 
 .lesson a {
@@ -122,12 +123,3 @@ clr {
 .description {
   font-family: 'exoextralight';
   }
-
-.subtitle {
-  font-family: 'exoextralight';
-}
-
-.bulk {
-  marign: 10px;
-  padding: 10px
-}
