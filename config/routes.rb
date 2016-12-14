@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
   # get 'static/pages'
-
+  resource :dashboard, only: [:show]
   root 'static#index'
   resources :courses, only: [:index, :show] do
       resources :enrollments, only: :create
