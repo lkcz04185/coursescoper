@@ -69,9 +69,52 @@
 
   <div id="footer">
     <div class="container">
-      <b> Teachers </b>
-      <br />
-      <%= link_to 'Teach a course', new_instructor_course_path %>
+      <div class="col-xs-12 col-sm-3">
+        <b> Teachers </b>
+        <br />
+        <%= link_to 'Teach a course', new_instructor_course_path %>
+        <br />
+        <%= link_to 'MyDashboard', dashboard_path %>
+      </div>
+
+      <div class="col-xs-12 col-sm-3">
+        <b> About </b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Careers', '#' %>
+        <br />
+        <%= link_to 'Privacy Policy', '#' %>
+      </div>
+
+      <div class="col-xs-12 col-sm-3">
+        <b> Contact </b>
+        <br />
+        Name
+        <br />
+        E-mail
+        <br />
+        Address
+      </div>
+
+      <div class="col-xs-12 col-sm-3">
+        <b> Social </b>
+        <br />
+        <%= link_to 'https://github.com/lkcz04185' do %> 
+          <%= image_tag 'github.png', class:'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.linkedin.com/in/ladislav-kus-b032829a?trk=hp-identity-name' do %>
+          <%= image_tag 'linkedin.png', class:'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.facebook.com' do %>
+          <%= image_tag 'facebook.png', class:'social-button' %>
+        <% end %>
+        <%= link_to 'https://www.twitter.com' do %>
+          <%= image_tag 'twitter.png', class:'social-button' %>
+        <% end %>
+      </div>
+
+
     </div>
   </div>
 
