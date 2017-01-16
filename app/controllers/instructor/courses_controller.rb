@@ -19,6 +19,9 @@ class Instructor::CoursesController < ApplicationController
     @lesson = Lesson.new
     end
 
+
+
+
   private
 
   def require_authorized_for_current_course

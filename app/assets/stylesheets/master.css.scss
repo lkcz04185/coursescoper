@@ -1,5 +1,8 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 .navbar {
-  border-radius: 0;
+  border-radius: 0px;
   font-family: 'exomedium';
   font-weight: 200;
   -webkit-box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
@@ -20,8 +23,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 370px;
+  height: 320px;
   margin: 0;
+  padding: 0;
   -webkit-box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
   -moz-box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
   box-shadow: 0px 5px 5px 5px rgba(115,115,115,1);
@@ -58,7 +62,7 @@ h1, h2, h3 {
 
 body {
   background: url('tex2res3.png');
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: "Helvetica neue", Helvetica;
 }
 
 .booyah-box {
@@ -78,6 +82,8 @@ body {
 
 .label {
   margin: 8px;
+  font-size: 15px;
+  padding: 8px;
 }
 
 .clr {
@@ -119,7 +125,7 @@ body {
   }
 
 .description {
-  font-family: 'exoextralight';
+  font-family: 'exolight';
 }
 
 ul {
@@ -155,4 +161,8 @@ ul .header .glyphicon{
 .icon {
   height: 60px;
   width: 60px;
+}
+
+.img-responsive {
+  margin: 0 auto;
 }
